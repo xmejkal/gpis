@@ -1,6 +1,6 @@
 class GpisScraper
 
-  @@debug = 1
+  @@debug = 0
 
   GOOGLE_PLAY_URL = "https://play.google.com/store/apps/details"
 
