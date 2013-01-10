@@ -19,7 +19,7 @@ class GpisAppInfo
 
     # language independent values
     first_document = @documents[@documents.keys.first]
-    @icon_url      = fill_icon_url(first_document)
+    fill_icon_url(first_document)
 
     # language specific values
     @documents.each do |language, document|
