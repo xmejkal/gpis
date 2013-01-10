@@ -1,8 +1,4 @@
 require "gpis/version"
-require 'rubygems'
-require 'nokogiri'
-require 'open-uri'
-require 'iconv'
 
 require 'gpis/gpis_exceptions'
 require 'gpis/gpis_app_info'

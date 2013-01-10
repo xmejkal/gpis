@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a7cce55-79e3-449d-ab1c-02d21d595272" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/gpis/gpis_app_info.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/gpis/gpis_exceptions.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/gpis/gpis_scraper.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gpis.iml" afterPath="$PROJECT_DIR$/.idea/gpis.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gpis.gemspec" afterPath="$PROJECT_DIR$/gpis.gemspec" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/gpis.rb" afterPath="$PROJECT_DIR$/lib/gpis.rb" />
@@ -31,16 +27,34 @@
       <file leaf-file-name="gpis.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/gpis.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="27" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0">
+            <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gpis.gemspec" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="7" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Rakefile" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Rakefile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gpis.gemspec" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gpis.gemspec">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="77" selection-start="902" selection-end="902" vertical-scroll-proportion="0.0">
+            <state line="9" column="50" selection-start="615" selection-end="615" vertical-scroll-proportion="0.18141097">
               <folding />
             </state>
           </provider>
@@ -49,13 +63,13 @@
       <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="21" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0">
+            <state line="3" column="4" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gpis_app_info.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="gpis_app_info.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/gpis/gpis_app_info.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -87,8 +101,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/lib/gpis/gpis_scraper.rb" />
-        <option value="$PROJECT_DIR$/lib/gpis.rb" />
         <option value="$PROJECT_DIR$/lib/gpis/gpis_app_info.rb" />
+        <option value="$PROJECT_DIR$/lib/gpis.rb" />
         <option value="$PROJECT_DIR$/gpis.gemspec" />
       </list>
     </option>
@@ -340,30 +354,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/gpis.rb">
+    <entry file="file://$PROJECT_DIR$/lib/gpis/gpis_app_info.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="27" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gpis.gemspec">
+    <entry file="file://$PROJECT_DIR$/Rakefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="77" selection-start="902" selection-end="902" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="21" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0">
+        <state line="3" column="4" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/gpis/gpis_app_info.rb">
+    <entry file="file://$PROJECT_DIR$/lib/gpis.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="7" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gpis.gemspec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="50" selection-start="615" selection-end="615" vertical-scroll-proportion="0.18141097">
           <folding />
         </state>
       </provider>
