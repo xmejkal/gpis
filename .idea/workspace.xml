@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a7cce55-79e3-449d-ab1c-02d21d595272" name="Default" comment="icon_url bug fixed">
+    <list default="true" id="5a7cce55-79e3-449d-ab1c-02d21d595272" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/gpis/gpis_app_info.rb" afterPath="$PROJECT_DIR$/lib/gpis/gpis_app_info.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/gpis/version.rb" afterPath="$PROJECT_DIR$/lib/gpis/version.rb" />
     </list>
     <ignored path="gpis.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,10 +31,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gpis_app_info.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="gpis_app_info.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/gpis/gpis_app_info.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="6" selection-start="1939" selection-end="1939" vertical-scroll-proportion="1.402763">
+            <state line="60" column="6" selection-start="1939" selection-end="1939" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -49,10 +49,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="version.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="version.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/gpis/version.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="18" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0">
+            <state line="1" column="18" selection-start="30" selection-end="30" vertical-scroll-proportion="0.018867925">
               <folding />
             </state>
           </provider>
@@ -102,8 +102,8 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/lib/gpis.rb" />
         <option value="$PROJECT_DIR$/lib/gpis/gpis_scraper.rb" />
-        <option value="$PROJECT_DIR$/lib/gpis/version.rb" />
         <option value="$PROJECT_DIR$/lib/gpis/gpis_app_info.rb" />
+        <option value="$PROJECT_DIR$/lib/gpis/version.rb" />
       </list>
     </option>
   </component>
@@ -263,6 +263,11 @@
       <created>1357818566380</created>
       <updated>1357818566380</updated>
     </task>
+    <task id="LOCAL-00001" summary="icon_url bug fixed">
+      <created>1357837312932</created>
+      <updated>1357837312932</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -438,13 +443,6 @@
         <state line="26" column="0" selection-start="428" selection-end="428" vertical-scroll-proportion="0.51655626" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/gpis/version.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="18" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/gpis/gpis_scraper.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="8" selection-start="693" selection-end="693" vertical-scroll-proportion="0.0">
@@ -454,7 +452,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/gpis/gpis_app_info.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="6" selection-start="1939" selection-end="1939" vertical-scroll-proportion="1.402763">
+        <state line="60" column="6" selection-start="1939" selection-end="1939" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/gpis/version.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="18" selection-start="30" selection-end="30" vertical-scroll-proportion="0.018867925">
           <folding />
         </state>
       </provider>
