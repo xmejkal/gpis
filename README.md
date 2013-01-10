@@ -18,7 +18,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+begin
+  appInfo = GpisScraper.scrape_info("com.alensw.PicFolder", ['en', 'fr', 'de'])
+rescue GpisError => e
+  puts "Gpis Tester : An Error Occured :  \n #{e.to_s}"
+end
+  puts "Info:  #{appInfo}" unless appInfo.nil?
+
 
 ## Contributing
 

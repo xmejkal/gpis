@@ -16,7 +16,5 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = Gpis::VERSION
 
-  gem.add_dependency "open-uri"
   gem.add_dependency "nokogiri"
-  gem.add_dependency "iconv"
 end
