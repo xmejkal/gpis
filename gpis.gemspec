@@ -17,4 +17,9 @@ Gem::Specification.new do |gem|
   gem.version       = Gpis::VERSION
 
   gem.add_dependency "nokogiri"
+
+  gem.add_development_dependency "pry"
+  gem.add_development_dependency "pry-nav"
+  gem.add_development_dependency "pry-stack_explorer"
+
 end

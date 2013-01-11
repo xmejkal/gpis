@@ -62,7 +62,9 @@ class GpisAppInfo
     begin
       language_hash     = @permissions[language] = Hash.new
       full_css_selector = "##{section_id} li.doc-permission-group"
+      binding.pry
       document.css(full_css_selector).each do |group_element| # cycle through permission groups
+        binding.pry
         group_name    = group_element.css(".doc-permission-group-title").inner_html
         current_group = language_hash[group_name]
         #if the current_group hash hasn't yet been created, create it. All the other permissions for this group will then only be added to it, but the first one has to create it
