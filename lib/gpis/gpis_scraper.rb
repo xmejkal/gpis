@@ -1,11 +1,9 @@
 class GpisScraper
 
-  @@debug = 0
 
   GOOGLE_PLAY_URL = "https://play.google.com/store/apps/details"
 
   def self.scrape_info(package_name, languages)
-
     documents = Hash.new
     languages.each do |language|
       initial_url         = "#{GOOGLE_PLAY_URL}?id=#{package_name}&hl=#{language}"
@@ -21,7 +19,6 @@ class GpisScraper
       stream = open(url, 'User-Agent' => 'ruby', :redirect => false)
     rescue OpenURI::HTTPRedirect
       url = $!.uri
-      puts "GpisScraper: Redirecting to "+ url.to_s if @@debug == 1
       retry
     rescue OpenURI::HTTPError => e
       status_code = e.io.status[0] rescue 404
