@@ -60,7 +60,7 @@ class GpisAppInfo
 
   def fill_permissions_for_lang_based_on_danger_and_section_id(document, language, section_id, is_dangerous)
     begin
-      language_hash     = @permissions[language] |= Hash.new
+      language_hash     = @permissions[language] ||= Hash.new
       full_css_selector = "##{section_id} li.doc-permission-group"
       document.css(full_css_selector).each do |group_element| # cycle through permission groups
         group_name    = group_element.css(".doc-permission-group-title").inner_html
