@@ -60,11 +60,9 @@ class GpisAppInfo
 
   def fill_permissions_for_lang_based_on_danger_and_section_id(document, language, section_id, is_dangerous)
     begin
-      language_hash     = @permissions[language] = Hash.new
+      language_hash     = @permissions[language] |= Hash.new
       full_css_selector = "##{section_id} li.doc-permission-group"
-      binding.pry
       document.css(full_css_selector).each do |group_element| # cycle through permission groups
-        binding.pry
         group_name    = group_element.css(".doc-permission-group-title").inner_html
         current_group = language_hash[group_name]
         #if the current_group hash hasn't yet been created, create it. All the other permissions for this group will then only be added to it, but the first one has to create it
@@ -74,7 +72,6 @@ class GpisAppInfo
           current_group[:permissions] = Array.new
           language_hash[group_name]   = current_group
         end
-
         permission_name         = group_element.css(".doc-permission-description").collect { |el| el.inner_html }
         permission_descriptions = group_element.css(".doc-permission-description-full").collect { |el| el.inner_html }
         permission_name.each_index do |i|
